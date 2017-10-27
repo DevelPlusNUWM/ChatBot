@@ -1,0 +1,26 @@
+{
+  "name": "chatbotauyp",
+  "version": "1.0.0",
+  "description": "chat bot for AUTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelPlusNUWM/ChatBot.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "DevelPlus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevelPlusNUWM/ChatBot/issues"
+  },
+  "homepage": "https://github.com/DevelPlusNUWM/ChatBot#readme",
+  "dependencies": {
+    "config": "^1.27.0",
+    "node-telegram-bot-api": "^0.29.0"
+  }
+}
