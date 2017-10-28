@@ -1,0 +1,7 @@
+/* Config for bots */
+{
+    // Telegram bot config
+    "Telegram" : {
+        "tokken" : "447963580:AAGk5TVKTeuwlT-uxYU-AKdYDSTROj-dLI0"
+    }
+}

@@ -1,10 +1,10 @@
 {
-  "name": "chatbotauyp",
+  "name": "chatbotautp",
   "version": "1.0.0",
   "description": "chat bot for AUTP",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build" : "babel src -d dist --presets es2015"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,12 @@
   "homepage": "https://github.com/DevelPlusNUWM/ChatBot#readme",
   "dependencies": {
     "config": "^1.27.0",
+    "firebase-admin": "^5.4.3",
     "node-telegram-bot-api": "^0.29.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }

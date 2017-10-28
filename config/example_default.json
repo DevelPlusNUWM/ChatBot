@@ -1,0 +1,7 @@
+/* Example config for bots */
+{
+    // Telegram bot config
+    "Telegram" : {
+        "tokken" : "YOUR_TOKKEN"
+    }
+}
