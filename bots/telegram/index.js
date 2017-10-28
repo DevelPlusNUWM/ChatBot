@@ -7,7 +7,7 @@ const TelegramBot = require('node-telegram-bot-api');
 var Telegram = (function() {
     
     const token = CONSTS.Config.get('Telegram.tokken')
-    const bot = new TelegramBot(token, {polling: true});
+    const bot = new TelegramBot(token, {polling: { interval: 2000, timeout: 10 }});
     //var res;
 
     bot.onText(/(.+)/, (msg, match) => {
