@@ -10,8 +10,10 @@ var Telegram = (function() {
     const bot = new TelegramBot(token, {polling: true});
    
 
-    bot.onText(/(.+)/, (msg, match) => {
-          
+    bot.on('message', (msg, match) => {
+        
+        console.log(msg);
+
         var res = TBot.Bot.InputRes(msg)
         
         console.log(res);

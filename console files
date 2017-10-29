@@ -1,0 +1,99 @@
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:624:30
+undefined
+{ message_id: 133,
+  from:
+   { id: 353274891,
+     is_bot: false,
+     first_name: 'Maksym',
+     last_name: 'Mishchanchuk',
+     username: 'develplus',
+     language_code: 'ru-RU' },
+  chat:
+   { id: 353274891,
+     first_name: 'Maksym',
+     last_name: 'Mishchanchuk',
+     username: 'develplus',
+     type: 'private' },
+  date: 1509265190,
+  document:
+   { file_name: 'lab6.accdb',
+     mime_type: 'application/octet-stream',
+     file_id: 'BQADAgADkAAD8iKoSwnOrYnDbU-1Ag',
+     file_size: 348160 } }
+{ fromId: 353274891, text: undefined, name: 'Maksym' }
+{ fromId: 353274891, respoynse: 'Ваше повідомлення: undefined' }
+{ message_id: 135,
+  from:
+   { id: 353274891,
+     is_bot: false,
+     first_name: 'Maksym',
+     last_name: 'Mishchanchuk',
+     username: 'develplus',
+     language_code: 'ru-RU' },
+  chat:
+   { id: 353274891,
+     first_name: 'Maksym',
+     last_name: 'Mishchanchuk',
+     username: 'develplus',
+     type: 'private' },
+  date: 1509265217,
+  document:
+   { file_name: 'андрюха_микширование.wav',
+     mime_type: 'audio/x-wav',
+     file_id: 'BQADAgADkQAD8iKoS2cO-hh3yitjAg',
+     file_size: 1942928 } }
+{ fromId: 353274891, text: undefined, name: 'Maksym' }
+{ fromId: 353274891, respoynse: 'Ваше повідомлення: undefined' }
+{ message_id: 137,
+  from:
+   { id: 353274891,
+     is_bot: false,
+     first_name: 'Maksym',
+     last_name: 'Mishchanchuk',
+     username: 'develplus',
+     language_code: 'ru-RU' },
+  chat:
+   { id: 353274891,
+     first_name: 'Maksym',
+     last_name: 'Mishchanchuk',
+     username: 'develplus',
+     type: 'private' },
+  date: 1509265242,
+  audio:
+   { duration: 216,
+     mime_type: 'audio/mpeg',
+     file_id: 'CQADAgADkgAD8iKoS3tcDWJFzwI8Ag',
+     file_size: 3457357 } }
+{ fromId: 353274891, text: undefined, name: 'Maksym' }
+{ fromId: 353274891, respoynse: 'Ваше повідомлення: undefined' }
+{ message_id: 139,
+  from:
+   { id: 353274891,
+     is_bot: false,
+     first_name: 'Maksym',
+     last_name: 'Mishchanchuk',
+     username: 'develplus',
+     language_code: 'ru-RU' },
+  chat:
+   { id: 353274891,
+     first_name: 'Maksym',
+     last_name: 'Mishchanchuk',
+     username: 'develplus',
+     type: 'private' },
+  date: 1509265600,
+  video:
+   { duration: 197,
+     width: 720,
+     height: 1280,
+     mime_type: 'video/mp4',
+     thumb:
+      { file_id: 'AAQCABN-vzIOAARtn0lKgjGEdpwaAAIC',
+        file_size: 2579,
+        width: 50,
+        height: 90 },
+     file_id: 'BAADAgADkwAD8iKoS4oTmAgFzOURAg',
+     file_size: 226010707 } }
+{ fromId: 353274891, text: undefined, name: 'Maksym' }
+{ fromId: 353274891, respoynse: 'Ваше повідомлення: undefined' }
